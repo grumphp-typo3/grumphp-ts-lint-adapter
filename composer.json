@@ -1,0 +1,20 @@
+{
+  "name": "pluswerk/grumphp-ts-linter",
+  "description": "TypoScript linter for grumphp",
+  "authors": [
+    {
+      "name": "Sebastian Hofer"
+    }
+  ],
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Pluswerk\\GrumphpTsLinter\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Pluswerk\\GrumphpTsLinterTests\\": "Tests"
+    }
+  }
+}
